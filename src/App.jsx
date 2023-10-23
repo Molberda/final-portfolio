@@ -2,9 +2,14 @@ import './CSS/App.css';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <section id="home">
+      <nav></nav>
+      <body className="container home__container">
+        <div className="row home__row">
+          
+        </div>
+      </body>
+    </section>
   );
 }
 
