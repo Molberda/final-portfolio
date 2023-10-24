@@ -3,10 +3,12 @@ import "../CSS/Home.css";
 
 const Home = () => {
   return (
-    <section id="home">
-      <body className="container home__container">
-        <div className="row home__row"><h1>test</h1></div>
-      </body>
+    <section id="home" className="top__section">
+      <div className="container home__container">
+        <div className="row home__row">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
     </section>
   );
 };
