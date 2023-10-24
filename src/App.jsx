@@ -1,13 +1,13 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./CSS/App.css";
 
 function App() {
   return (
-    <section id="home">
-      <nav></nav>
-      <body className="container home__container">
-        <div className="row home__row"></div>
-      </body>
-    </section>
+    <Router>
+      <Routes>
+        <Route path="/" element={}/>
+      </Routes>
+    </Router>
   );
 }
 
