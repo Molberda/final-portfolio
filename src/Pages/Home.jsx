@@ -1,10 +1,14 @@
-import React from 'react';
-import '../CSS/Home.css'
+import React from "react";
+import "../CSS/Home.css";
 
 const Home = () => {
-    return (
-        <section id="home"></section>
-    );
-}
+  return (
+    <section id="home">
+      <body className="container home__container">
+        <div className="row home__row">Test</div>
+      </body>
+    </section>
+  );
+};
 
 export default Home;
