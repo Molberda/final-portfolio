@@ -1,15 +1,24 @@
-#home{
-    min-height: 100vh;
+#home {
+  min-height: 100vh;
 }
 
-.home__title{
-    text-align: center;
-    font-size: 4em;
-    letter-spacing: .1em;
+.home__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.highlight{
-    font-family: 'Caveat', cursive;
-    text-transform: uppercase;
-    filter: invert(1);
+.home__title > h1,
+.highlight {
+  display: flex;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+}
+
+.highlight {
+  font-family: "Caveat", cursive;
+  text-transform: uppercase;
+  filter: invert(1);
 }
