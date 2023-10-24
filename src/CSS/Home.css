@@ -8,6 +8,8 @@
     letter-spacing: .1em;
 }
 
-.invert{
+.highlight{
+    font-family: 'Caveat', cursive;
+    text-transform: uppercase;
     filter: invert(1);
 }
