@@ -6,7 +6,10 @@ const Home = () => {
     <section id="home" className="top__section">
       <div className="container home__container">
         <div className="row home__row">
-          <h1>Portfolio</h1>
+          <h1 className="home__title">
+            Hello! My name is <span className="invert">David Möller</span>
+            <br /> a frontend developer
+          </h1>
         </div>
       </div>
     </section>

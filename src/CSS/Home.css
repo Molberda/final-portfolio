@@ -1,3 +1,13 @@
 #home{
     min-height: 100vh;
 }
+
+.home__title{
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: .1em;
+}
+
+.invert{
+    filter: invert(1);
+}
