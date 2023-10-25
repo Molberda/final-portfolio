@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/Home.css";
 import { Button } from "@mui/material";
+import { ArrowOutward } from "@mui/icons-material";
 
 const Home = () => {
   return (
@@ -16,8 +17,8 @@ const Home = () => {
             <h1>I'm a frontend developer</h1>
           </div>
           <div className="home__btns">
-            <Button>My Projects</Button>
-            <Button>About Me</Button>
+            <Button startIcon={<ArrowOutward/>}>My Projects</Button>
+            <Button startIcon={<ArrowOutward/>}>About Me</Button>
           </div>
         </div>
       </div>

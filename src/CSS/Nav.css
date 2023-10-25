@@ -8,3 +8,7 @@ nav{
     padding: 0 2em;
     height: 6em;
 }
+
+nav > .MuiIconButton-root{
+    color: var(--black);
+}
