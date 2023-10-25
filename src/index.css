@@ -1,4 +1,5 @@
 #root{
-    background-color: blue;
     font-size: 10px;
+    --black: #242424;
+    --accent: #ca44e1;
 }

@@ -18,7 +18,19 @@
 }
 
 .highlight {
+  color: var(--accent);
   font-family: "Caveat", cursive;
   text-transform: uppercase;
-  filter: invert(1);
+}
+
+.home__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.home__btns > button{
+  color: var(--black);
+  text-transform: none;
 }

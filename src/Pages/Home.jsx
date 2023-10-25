@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Home.css";
+import { Button } from "@mui/material";
 
 const Home = () => {
   return (
@@ -13,6 +14,10 @@ const Home = () => {
               <div className="hover-effect"></div>
             </span>
             <h1>I'm a frontend developer</h1>
+          </div>
+          <div className="home__btns">
+            <Button>My Projects</Button>
+            <Button>About Me</Button>
           </div>
         </div>
       </div>
