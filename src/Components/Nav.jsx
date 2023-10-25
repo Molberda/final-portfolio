@@ -1,10 +1,11 @@
 import React from 'react';
+import '../CSS/Nav.css'
 
 const Nav = () => {
     return (
-        <div>
+        <nav>
             
-        </div>
+        </nav>
     );
 }
 
