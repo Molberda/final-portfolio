@@ -19,5 +19,5 @@
   background-size: 1920px 1080px;
   mix-blend-mode: color-burn;
   opacity: .75;
-  filter: contrast(.4);
+  filter: contrast(.8);
 }

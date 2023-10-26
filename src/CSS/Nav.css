@@ -8,6 +8,8 @@ nav {
   right: 0;
   padding: 0 2em;
   height: 8em;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .nav__logo--wrapper{
