@@ -1,5 +1,23 @@
-#root{
-    font-size: 10px;
-    --black: #242424;
-    --accent: #ca44e1;
+#root {
+  position: relative;
+  font-size: 10px;
+  --black: #242424;
+  --accent: #ca44e1;
+  background: rgb(229, 229, 229);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://texturelabs.org/wp-content/uploads/Texturelabs_Paper_208S.jpg);
+  background-repeat: repeat;
+  background-size: 1920px 1080px;
+  mix-blend-mode: color-burn;
+  opacity: .75;
+  filter: contrast(.4);
 }
