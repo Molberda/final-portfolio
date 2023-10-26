@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <nav>
       <figure className="nav__logo--wrapper" onClick={() => navTo('/')}>
-        test
+        <h1>DM</h1>
         <img src="" alt="" className="nav__logo" />
       </figure>
       <IconButton onClick={() => navTo("/menu")}>
