@@ -2,7 +2,14 @@
   min-height: 100vh;
 }
 
+.home__container{
+  position: relative;
+}
+
 .home__row {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
   gap: 2em;
 }
 
