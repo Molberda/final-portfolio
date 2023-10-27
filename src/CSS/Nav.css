@@ -10,6 +10,7 @@ nav {
   height: 8em;
   max-width: 1400px;
   margin: 0 auto;
+  z-index: 100;
 }
 
 .nav__logo--wrapper{
