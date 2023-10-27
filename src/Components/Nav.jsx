@@ -8,6 +8,7 @@ const Nav = () => {
 
   const navTo = useNavigate();
 
+ 
   return (
     <nav>
       <figure className="nav__logo--wrapper" onClick={() => navTo('/')}>
