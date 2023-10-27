@@ -6,7 +6,13 @@ import { motion as m } from "framer-motion";
 
 const Home = () => {
   return (
-    <section id="home" className="top__section">
+    <m.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.5, ease: 'easeOut' }}
+      id="home"
+      className="top__section"
+    >
       <div className="container home__container">
         <div className="row home__row">
           <div className="home__title">
@@ -18,12 +24,12 @@ const Home = () => {
             <h1>I'm a frontend developer</h1>
           </div>
           <div className="home__btns">
-            <Button startIcon={<ArrowOutward/>}>My Projects</Button>
-            <Button startIcon={<ArrowOutward/>}>About Me</Button>
+            <Button startIcon={<ArrowOutward />}>My Projects</Button>
+            <Button startIcon={<ArrowOutward />}>About Me</Button>
           </div>
         </div>
       </div>
-    </section>
+    </m.section>
   );
 };
 
