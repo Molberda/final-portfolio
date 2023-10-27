@@ -2,6 +2,7 @@ import React from "react";
 import "../CSS/Home.css";
 import { Button } from "@mui/material";
 import { ArrowOutward } from "@mui/icons-material";
+import { motion as m } from "framer-motion";
 
 const Home = () => {
   return (
