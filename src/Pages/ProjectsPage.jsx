@@ -1,9 +1,9 @@
 import React from "react";
-import "../CSS/ProjectList.css";
+import "../CSS/ProjectsPage.css";
 import { motion as m } from "framer-motion";
 import { Projects } from "../ProjectData";
 
-const ProjectList = () => {
+const ProjectsPage = () => {
   return (
     <m.section
       initial={{ opacity: 0 }}
@@ -23,4 +23,4 @@ const ProjectList = () => {
   );
 };
 
-export default ProjectList;
+export default ProjectsPage
