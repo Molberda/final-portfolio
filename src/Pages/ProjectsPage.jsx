@@ -15,13 +15,15 @@ const ProjectsPage = () => {
     >
       <div className="container projectList__container">
         <div className="row projectList__row">
-          {Projects.map((item) => (
-            <ProjectsList item={item} key={item.id} />
-          ))}
+          <div className="projectList__map">
+            {Projects.map((item) => (
+              <ProjectsList item={item} key={item.id} />
+            ))}
+          </div>
         </div>
       </div>
     </m.section>
   );
 };
 
-export default ProjectsPage
+export default ProjectsPage;

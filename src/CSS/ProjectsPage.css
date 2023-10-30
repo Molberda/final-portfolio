@@ -1,5 +1,9 @@
-.projectList__row{
-    padding: 0 4em;
+.projectList__map{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 0 2em;
+    width: 100%;
 }
 
 .projectList{
@@ -11,9 +15,14 @@
     align-items: center;
     justify-content: space-between;
     transition: all 300ms ease;
+    color: var(--black);
 }
 
 .projectList:hover{
     background-color: var(--accentHover);
     border-color:  var(--accent);
+}
+
+.projectList > h1{
+    font-size: 1.8em;
 }
