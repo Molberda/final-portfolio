@@ -2,6 +2,7 @@ import React from "react";
 import "../CSS/ProjectsPage.css";
 import { motion as m } from "framer-motion";
 import { Projects } from "../ProjectData";
+import ProjectsList from "../Components/ProjectsList";
 
 const ProjectsPage = () => {
   return (
@@ -15,7 +16,7 @@ const ProjectsPage = () => {
       <div className="container projectList__container">
         <div className="row projectList__row">
           {Projects.map((item) => (
-            <h1>{item.name}</h1>
+            <ProjectsList item={item} key={item.id} />
           ))}
         </div>
       </div>
