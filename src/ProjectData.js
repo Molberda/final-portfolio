@@ -1,7 +1,7 @@
 export const Projects = [
     {
         id: 0,
-        name: '',
+        name: 'test #1',
         description: '',
         img: '',
     }

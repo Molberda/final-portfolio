@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/ProjectList.css";
 import { motion as m } from "framer-motion";
+import { Projects } from "../ProjectData";
 
 const ProjectList = () => {
   return (
@@ -11,16 +12,11 @@ const ProjectList = () => {
       id="home"
       className="top__section"
     >
-      <div className="container home__container">
-        <div className="row home__row">
-          <div className="home__title">
-            <h1>THis is menu page</h1>
-            <span className="highlight">
-              <p>David Möller</p>
-              <div className="hover-effect"></div>
-            </span>
-            <h1>I'm a frontend developer</h1>
-          </div>
+      <div className="container projectList__container">
+        <div className="row projectList__row">
+          {Projects.map((item) => (
+            <h1>{item.name}</h1>
+          ))}
         </div>
       </div>
     </m.section>
