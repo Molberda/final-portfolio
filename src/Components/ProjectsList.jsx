@@ -1,9 +1,11 @@
+import { ArrowCircleRightOutlined } from '@mui/icons-material';
 import React from 'react';
 
-const ProjectsList = () => {
+const ProjectsList = ({ item }) => {
     return (
-        <div>
-            
+        <div className='projectList'>
+            <h1>{item.name}</h1>
+            <ArrowCircleRightOutlined/>
         </div>
     );
 }
