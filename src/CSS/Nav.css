@@ -23,6 +23,19 @@ nav {
   font-size: 4em;
 }
 
+.nav__right{
+  display: flex;
+  align-items: center;
+}
+
+.nav__right > button{
+  color: var(--black);
+}
+
+.nav__right > button > p {
+  margin-bottom: .3em;
+}
+
 nav > .MuiIconButton-root {
   color: var(--black);
 }

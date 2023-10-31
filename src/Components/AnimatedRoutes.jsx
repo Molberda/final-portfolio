@@ -7,6 +7,7 @@ import { AnimatePresence } from "framer-motion";
 import Menu from "../Pages/Menu";
 import AboutEsp from "../Pages/AboutEsp";
 import HomeEsp from "../Pages/HomeEsp";
+import MenuEsp from "../Pages/MenuEsp";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -20,6 +21,7 @@ const AnimatedRoutes = () => {
         <Route path="/menu" element={<Menu />} />
         <Route path="/es" element={<HomeEsp />} />
         <Route path="/es/aboutme" element={<AboutEsp />} />
+        <Route path="/es/menu" element={<MenuEsp />} />
       </Routes>
     </AnimatePresence>
   );
