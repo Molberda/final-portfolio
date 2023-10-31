@@ -18,6 +18,10 @@ nav {
     align-items: center;
 }
 
+.nav__logo--wrapper:hover{
+    cursor: pointer;
+}
+
 .nav__logo--wrapper > h1 {
     color: var(--accent);
   font-size: 4em;
