@@ -5,7 +5,7 @@ import { ArrowOutward } from "@mui/icons-material";
 import { motion as m } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-const Home = () => {
+const HomeEsp = () => {
   const navTo = useNavigate();
 
   return (
@@ -19,22 +19,22 @@ const Home = () => {
       <div className="container home__container">
         <div className="row home__row">
           <div className="home__title">
-            <h1>Hello! My name is</h1>
+            <h1>Hola, Mi nombre es</h1>
             <span className="highlight">
               <p>David Möller</p>
               <div className="hover-effect"></div>
             </span>
-            <h1>I'm a frontend developer</h1>
+            <h1>y soy un desarrollador de frontend</h1>
           </div>
           <div className="home__btns">
             <Button
-              onClick={() => navTo("/projects")}
+              onClick={() => navTo("/es/projects")}
               startIcon={<ArrowOutward />}
             >
-              My Projects
+              Mis proyectos
             </Button>
-            <Button onClick={() => navTo("/aboutme")} startIcon={<ArrowOutward />}>
-              About Me
+            <Button onClick={() => navTo("/es/aboutme")} startIcon={<ArrowOutward />}>
+              Acerca de Mi
             </Button>
           </div>
         </div>
@@ -43,4 +43,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeEsp;

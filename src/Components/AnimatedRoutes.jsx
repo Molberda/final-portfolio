@@ -6,6 +6,7 @@ import About from "../Pages/About";
 import { AnimatePresence } from "framer-motion";
 import Menu from "../Pages/Menu";
 import AboutEsp from "../Pages/AboutEsp";
+import HomeEsp from "../Pages/HomeEsp";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -17,6 +18,7 @@ const AnimatedRoutes = () => {
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/aboutme" element={<About />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/es" element={<HomeEsp />} />
         <Route path="/es/aboutme" element={<AboutEsp />} />
       </Routes>
     </AnimatePresence>
