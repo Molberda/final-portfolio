@@ -8,6 +8,7 @@ import Menu from "../Pages/Menu";
 import AboutEsp from "../Pages/AboutEsp";
 import HomeEsp from "../Pages/HomeEsp";
 import MenuEsp from "../Pages/MenuEsp";
+import ProjectsPageEsp from "../Pages/ProjectsPageEsp";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -16,12 +17,13 @@ const AnimatedRoutes = () => {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/aboutme" element={<About />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/es" element={<HomeEsp />} />
         <Route path="/es/aboutme" element={<AboutEsp />} />
         <Route path="/es/menu" element={<MenuEsp />} />
+        <Route path="/es/projects" element={<ProjectsPageEsp />} />
       </Routes>
     </AnimatePresence>
   );
