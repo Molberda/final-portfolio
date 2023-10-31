@@ -1,8 +1,8 @@
 import React from "react";
 import "../CSS/ProjectsPage.css";
 import { motion as m } from "framer-motion";
-import { Projects } from "../ProjectData";
 import ProjectsList from "../Components/ProjectsList";
+import { Projects } from "../Data/ProjectData";
 
 const ProjectsPageEsp = () => {
   return (
