@@ -10,7 +10,7 @@ const ProjectsPage = () => {
       initial={{ y: '100%' }}
       animate={{ y: 0 , transition: { duration: .5 } }}
       exit={{ y: '-100%', transition: { duration: .5, ease: 'easeInOut' } }}
-      id="home"
+      id="projects"
       className="top__section"
     >
       <div className="container projectList__container">

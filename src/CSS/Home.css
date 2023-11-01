@@ -1,6 +1,8 @@
 #home {
   min-height: 100vh;
+  overflow: hidden;
 }
+
 
 .home__row {
   padding-top: 8em;
