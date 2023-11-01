@@ -9,7 +9,7 @@ const ProjectsPage = () => {
     <m.section
       initial={{ y: '100%' }}
       animate={{ y: 0 , transition: { duration: .5 } }}
-      exit={{ y: '-100%', transition: { duration: 0.5 } }}
+      exit={{ y: '-100%', transition: { duration: .5, ease: 'easeInOut' } }}
       id="home"
       className="top__section"
     >
