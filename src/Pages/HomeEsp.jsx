@@ -11,7 +11,7 @@ const HomeEsp = () => {
   return (
     <m.section
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1.5 } }}
+      animate={{ opacity: 1, transition: { duration: 2.5, ease: 'easeInOut'} }}
       exit={{ opacity: 0, transitionDuration: 0.5 }}
       id="home"
       className="top__section"
