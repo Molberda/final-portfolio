@@ -7,9 +7,9 @@ import { Projects } from "../Data/ProjectData";
 const ProjectsPage = () => {
   return (
     <m.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1.5 } }}
-      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+      initial={{ y: '100%' }}
+      animate={{ y: 0 , transition: { duration: .5 } }}
+      exit={{ y: '-100%', transition: { duration: 0.5 } }}
       id="home"
       className="top__section"
     >

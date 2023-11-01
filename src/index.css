@@ -7,6 +7,7 @@
   background: rgb(229, 229, 229);
   min-width: 100vw;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 #root::before {
