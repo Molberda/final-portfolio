@@ -5,10 +5,10 @@ import { motion as m } from "framer-motion";
 const About = () => {
   return (
     <m.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1.5 } }}
-      exit={{ opacity: 0, transition: { duration: 0.5 } }}
-      id="home"
+    initial={{ x: "100%" }}
+    animate={{ x: 0, transition: { duration: 0.5 } }}
+    exit={{ x: "-100%", transition: { duration: 0.5, ease: "easeInOut" } }}
+    id="about"
       className="top__section"
     >
       <div className="container home__container">
