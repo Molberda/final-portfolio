@@ -47,3 +47,7 @@ nav {
 nav > .MuiIconButton-root {
   color: var(--black);
 }
+
+.nav__right--desktop{
+  display: none;
+}

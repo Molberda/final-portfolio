@@ -24,6 +24,14 @@ const Nav = () => {
           <Menu />
         </IconButton>
       </div>
+      <div className="nav__right--desktop">
+        <Button onClick={() => navTo("/")}>
+          <p>🇺🇸</p>
+        </Button>
+        <Button onClick={() => navTo("/es")}>
+          <p>🇪🇸</p>
+        </Button>
+      </div>
     </nav>
   );
 };
