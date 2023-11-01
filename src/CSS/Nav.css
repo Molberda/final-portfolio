@@ -13,41 +13,46 @@ nav {
   z-index: 100;
 }
 
-.nav__logo--wrapper{
-    display: flex;
-    align-items: center;
-}
-
-.nav__logo--wrapper:hover{
-    cursor: pointer;
-}
-
-.nav__logo--wrapper > h1 {
-    color: var(--accent);
-  font-size: 4em;
-}
-
-.nav__right{
+.nav__logo--wrapper {
   display: flex;
   align-items: center;
 }
 
-.nav__right > button{
+.nav__logo--wrapper:hover {
+  cursor: pointer;
+}
+
+.nav__logo--wrapper > h1 {
+  color: var(--accent);
+  font-size: 4em;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.nav__right > button {
   color: var(--black);
 }
 
-.nav__right > button:hover{
+.nav__right > button:hover,
+.nav__right--desktop > button:hover {
   background-color: rgba(0, 0, 0, 0.04);
 }
 
 .nav__right > button > p {
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
 }
 
 nav > .MuiIconButton-root {
   color: var(--black);
 }
 
-.nav__right--desktop{
+.nav__right--desktop {
   display: none;
+}
+
+.nav__right--desktop > button {
+  color: var(--black);
 }
