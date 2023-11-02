@@ -6,7 +6,7 @@ const ProjectsList = ({ item }) => {
 
     const navTo = useNavigate()
     return (
-        <div className='projectList' onClick={() => navTo('/')}>
+        <div className='projectList' onClick={() => navTo(`/projects/${item.id}`)}>
             <h1>{item.name}</h1>
             <ArrowCircleRightOutlined/>
         </div>
