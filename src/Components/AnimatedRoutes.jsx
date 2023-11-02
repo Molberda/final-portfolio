@@ -9,6 +9,8 @@ import AboutEsp from "../Pages/AboutEsp";
 import HomeEsp from "../Pages/HomeEsp";
 import MenuEsp from "../Pages/MenuEsp";
 import ProjectsPageEsp from "../Pages/ProjectsPageEsp";
+import ProjectFocus from "../Pages/ProjectFocus";
+import ProjectFocusEsp from "../Pages/ProjectFocusEsp";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -20,12 +22,12 @@ const AnimatedRoutes = () => {
         <Route path="/aboutme" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/projects/:id" element={<ProjectsPage />} />
+        <Route path="/projects/:id" element={<ProjectFocus />} />
         <Route path="/es" element={<HomeEsp />} />
         <Route path="/es/aboutme" element={<AboutEsp />} />
         <Route path="/es/menu" element={<MenuEsp />} />
         <Route path="/es/projects" element={<ProjectsPageEsp />} />
-        <Route path="/es/projects/:id" element={<ProjectsPageEsp />} />
+        <Route path="/es/projects/:id" element={<ProjectFocusEsp />} />
       </Routes>
     </AnimatePresence>
   );
