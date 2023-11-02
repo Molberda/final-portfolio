@@ -9,7 +9,7 @@ const ProjectsPageEsp = () => {
     <m.section
       initial={{ y: "100%" }}
       animate={{ y: 0, transition: { duration: 0.5 } }}
-      exit={{ y: "-100%", transition: { duration: 0.5, ease: "easeInOut" } }}
+      exit={{ y: "100%", transition: { duration: 0.5, ease: "easeInOut" } }}
       id="projects"
       className="top__section"
     >
