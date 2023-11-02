@@ -20,10 +20,12 @@ const AnimatedRoutes = () => {
         <Route path="/aboutme" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/projects/:id" element={<ProjectsPage />} />
         <Route path="/es" element={<HomeEsp />} />
         <Route path="/es/aboutme" element={<AboutEsp />} />
         <Route path="/es/menu" element={<MenuEsp />} />
         <Route path="/es/projects" element={<ProjectsPageEsp />} />
+        <Route path="/es/projects/:id" element={<ProjectsPageEsp />} />
       </Routes>
     </AnimatePresence>
   );
