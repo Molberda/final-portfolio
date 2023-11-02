@@ -6,7 +6,7 @@ const About = () => {
   return (
     <m.section
     initial={{ x: "100%" }}
-    animate={{ x: 0, transition: { duration: 0.5 } }}
+    animate={{ x: 0, transition: { duration: 1 } }}
     exit={{ x: "-100%", transition: { duration: 0.5, ease: "easeInOut" } }}
     id="about"
       className="top__section"
