@@ -24,6 +24,9 @@ const ProjectFocus = () => {
               <h1>{project.name}</h1>
             </span>
           </div>
+          <figure className="projectFocus__img">
+            <img src={project.img}/>
+          </figure>
           <div className="projectFocus__btns">
             <Button
               href={`${project.link}`}

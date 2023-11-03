@@ -9,3 +9,9 @@
 .highlight > h1{
     color: var(--accent);
 }
+
+.projectFocus__img{
+    aspect-ratio: 16 / 9;
+    border-radius: .5em;
+    overflow: hidden;
+}
