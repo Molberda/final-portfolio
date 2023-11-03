@@ -1,0 +1,11 @@
+#projectFocus{
+    min-height: 100vh;
+}
+
+.projectFocus__row{
+    padding-top: 2em;
+}
+
+.highlight > h1{
+    color: var(--accent);
+}

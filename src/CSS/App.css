@@ -36,3 +36,10 @@ h6 {
   padding: 0 2em;
   max-width: 1400px;
 }
+
+.highlight {
+  color: var(--accent);
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  text-transform: uppercase;
+}
