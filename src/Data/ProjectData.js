@@ -1,5 +1,6 @@
 import barco from '../Assets/Barco-landing.png'
 import delizioso from '../Assets/Delizioso-landing.png'
+import google from '../Assets/Google-landing.png'
 
 export const Projects = [
   {
@@ -29,7 +30,7 @@ export const Projects = [
     description:
       "This is a practice project I made using the public Google API, its made using HTML, CSS, JavaScript, MUI, Firebase and React. This project is strictly for learning purposes, not for distribution or gaining profit form it",
     descriptionEsp: "prueba de descripcion en espanol para el clon de google",
-    img: "",
+    img: google,
     link: "https://google-clone-xi-five.vercel.app",
   },
   {
