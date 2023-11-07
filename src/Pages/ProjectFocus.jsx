@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { ArrowBackIosNew, ArrowOutward } from "@mui/icons-material";
 import { motion as m } from "framer-motion";
 import { Button, IconButton } from "@mui/material";
@@ -9,6 +9,7 @@ import "../CSS/ProjectFocus.css";
 const ProjectFocus = () => {
   const { id } = useParams();
   const project = Projects.find((i) => i.id === +id);
+  const navTo = useNavigate()
   return (
     <m.section
       initial={{ opacity: 0 }}
@@ -20,7 +21,7 @@ const ProjectFocus = () => {
       <div className="container projectFocus__container">
         <div className="row projectFocus__row">
           <div className="projectFocus__title">
-            <IconButton>
+            <IconButton onClick={() => navTo('/projects')}>
               <ArrowBackIosNew/>
             </IconButton>
             <span className="highlight">
