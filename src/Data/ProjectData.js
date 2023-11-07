@@ -1,4 +1,5 @@
 import barco from '../Assets/Barco-landing.png'
+import delizioso from '../Assets/Delizioso-landing.png'
 
 export const Projects = [
   {
@@ -18,7 +19,7 @@ export const Projects = [
     description:
       "This project was made for an entrepreneur chef looking to showcase her products and create a way for new customers to contact her. It's an original design and it uses HTML, CSS, JavaScript and React. It's a very simple website yet it acomplishes the goal that the client desired.",
     descriptionEsp: "prueba de descripcion en espanol para delizioso",
-    img: "",
+    img: delizioso,
     link: "https://jb-online-catalog.vercel.app",
   },
   {
