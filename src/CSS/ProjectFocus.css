@@ -7,6 +7,21 @@
   gap: 2em;
 }
 
+.projectFocus__title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.projectFocus__title > button {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
 .highlight > h1 {
   color: var(--accent);
 }
